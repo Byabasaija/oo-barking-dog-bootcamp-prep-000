@@ -10,12 +10,12 @@ class Dog
    @bark = bark
  end
  def bark
-   @bark
+  puts "#{@bark}"
  end
 
 end
 fido = Dog.new
 fido.name="Fido"
 fido.name
-fido.bark=puts("woof!")
+fido.bark="woof!"
 fido.bark
