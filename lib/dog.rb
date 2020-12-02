@@ -1,22 +1,21 @@
 # Your code goes here!
 class Dog
-  def initialize(name,bark)
-    @name = name
-    @bark = bark
-  end
+   def name=(name)
+   @name = name
+ end
  def name
    @name
  end
- def name=(name)
-   @name
+ def bark=(bark)
+   @bark = bark
  end
  def bark
    @bark
  end
- def bark=(bark)
-   @bark
- end
+
 end
-fido = Dog.new("Fido","Woof")
+fido = Dog.new
+fido.name="Fido"
 fido.name
+fido.bark="Woof"
 fido.bark
